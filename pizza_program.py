@@ -15,7 +15,7 @@ def main():
 
     # Process
     sub_total = constants.RENT + constants.LABOUR
-    + (diameter * constants.COST_PER_INCH)
+    +(diameter * constants.COST_PER_INCH)
     total = total = (1 + constants.HST) * sub_total
 
     # Output
@@ -24,4 +24,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
